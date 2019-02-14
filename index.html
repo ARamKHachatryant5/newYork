@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Home</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
+		<div id="menuDiv">
+				<i class="fas fa-times fa-2x" id="cancel"></i>
+				<ul id="menuUl">
+					<li><a href="">Home</a></li>
+					<li><a href="">Elements</a></li>
+				</ul>
+		</div>
+	<div id="menu"><i class="fas fa-bars"></i></div>
 	<section id="one">
-	<div class="divWelcome">
+		<div class="divWelcome">
 			<h1>Welcome</h1>
-	</div></section>
+		</div>
+	</section>
 	<section id="two">
 		<div class="divTwo">
 			<h2>New York</h2>
-			<p>The City of New York, often called New York City (NYC) or simply New York (NY), is the most populous city in the United States.[12] With an estimated 2017 population of 8,622,698[7] distributed over a land area of about 302.6 square miles (784 km2),[13][14] New York City is also the most densely populated major city in the United States.[15] Located at the southern tip of the state of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban landmass[16] and one of the world's most populous megacities</p>
+			<p>The City of New York, often called New York City (NYC) or simply New York (NY), is the most populous city
+				in the United States.[12] With an estimated 2017 population of 8,622,698[7] distributed over a land area
+				of about 302.6 square miles (784 km2),[13][14] New York City is also the most densely populated major
+				city in the United States.[15] Located at the southern tip of the state of New York, the city is the
+				center of the New York metropolitan area, the largest metropolitan area in the world by urban
+				landmass[16] and one of the world's most populous megacities</p>
 		</div>
 	</section>
 	<section id="three">
 		<div class="divThree">
 			<h2>Los Santos</h2>
-			<p>The City of Los Santos, commonly known as Los Santos, is a major city located in southern San Andreas in Grand Theft Auto V. GTA V marks Los Santos' second appearance in the series after Grand Theft Auto: San Andreas, which came out in 2004. The new rendition of the city is much more detailed, larger, and looks more alive than ever before. Los Santos is based on Los Angeles, California and its greater metropolitan area. Los Santos is Spanish for "The Saints", a play on "The Angels", which is the translation of Los Angeles.</p>
+			<p>The City of Los Santos, commonly known as Los Santos, is a major city located in southern San Andreas in
+				Grand Theft Auto V. GTA V marks Los Santos' second appearance in the series after Grand Theft Auto: San
+				Andreas, which came out in 2004. The new rendition of the city is much more detailed, larger, and looks
+				more alive than ever before. Los Santos is based on Los Angeles, California and its greater metropolitan
+				area. Los Santos is Spanish for "The Saints", a play on "The Angels", which is the translation of Los
+				Angeles.</p>
 		</div>
 	</section>
 	<section id="four">
 		<div id="form">
 			<h3>CONTACT ME</h3>
 			<form>
-				<div class="name">
 				<input name="name" id="name" type="text" placeholder="Name">
-				</div>
+				<input name="email" id="email" type="text" placeholder="Email">
+				<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+				<input value="Send Message" class="button" type="submit">
 			</form>
 		</div>
 	</section>
+	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
+
 </html>
