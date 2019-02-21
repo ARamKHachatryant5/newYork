@@ -5,3 +5,7 @@ const click = (tag, pixel) => {
 }
 click("#menu", "0px");
 click("#cancel", "-300px");
+
+$(window).scroll(()=>{
+    $("header").css({"background-color":"brown"})
+});
