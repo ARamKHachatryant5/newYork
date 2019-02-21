@@ -3,30 +3,32 @@
 
 <head>
 	<title>Home</title>
+	<link rel="stylesheet" href="lib/animate.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-		<div id="menuDiv">
-				<i class="fas fa-times fa-2x" id="cancel"></i>
-				<ul id="menuUl">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="elements.html">Elements</a></li>
-				</ul>
-		</div>
+	<div id="menuDiv">
+		<i class="fas fa-times fa-2x" id="cancel"></i>
+		<ul id="menuUl">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="elements.html">Elements</a></li>
+		</ul>
+	</div>
 	<div id="menu"><i class="fas fa-bars"></i></div>
 	<section id="one">
 		<div class="divWelcome">
-			<h1>Welcome</h1>
+			<h1 class="wow heartBeat">Welcome</h1>
 		</div>
 	</section>
 	<section id="two">
-		<div class="divTwo">
+		<div class="divTwo wow bounceInRight">
 			<h2>New York</h2>
 			<p>The City of New York, often called New York City (NYC) or simply New York (NY), is the most populous city
 				in the United States.[12] With an estimated 2017 population of 8,622,698[7] distributed over a land area
@@ -37,7 +39,7 @@
 		</div>
 	</section>
 	<section id="three">
-		<div class="divThree">
+		<div class="divThree wow heartBeat">
 			<h2>Los Santos</h2>
 			<p>The City of Los Santos, commonly known as Los Santos, is a major city located in southern San Andreas in
 				Grand Theft Auto V. GTA V marks Los Santos' second appearance in the series after Grand Theft Auto: San
@@ -49,7 +51,7 @@
 	</section>
 	<section id="four">
 		<div id="form">
-			<h3>CONTACT ME</h3>
+			<h3 class="wow shake">CONTACT ME</h3>
 			<form>
 				<input name="name" id="name" type="text" placeholder="Name">
 				<input name="email" id="email" type="text" placeholder="Email">
@@ -58,9 +60,13 @@
 			</form>
 		</div>
 	</section>
-	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="lib/owl.carousel.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="lib/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 
 </html>

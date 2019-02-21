@@ -1,0 +1,75 @@
+    @media only screen and (max-width: 1041px) {
+    .divTwo, .divThree {
+        width: 90%;
+    }
+    #form{
+        width: 80vw;
+    }
+    #form #email,#name{
+        display: block;
+        width: 70vw;
+        margin: auto;
+        margin-top: 29px;
+        margin-bottom: 29px;
+    }
+    #form #message{
+        width: 73vw;
+    }
+    .button{
+        margin-left: 3.6vw;
+    }
+    .elem1{
+        width: 100%;
+    }
+    .elem1 div{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 3%;
+    }
+    .elem2 , .elem3{
+        width: 100%;
+        margin-left: 0px;
+        box-sizing: border-box;
+        padding-top: 25px;
+        min-height: 155px;
+    }
+    .elem2 span{
+        font-size: 15vw;
+    }
+    .elem3{
+        padding: 6px;
+    }
+    
+}
+@media only screen and (max-width: 1142px) {
+    .owl-prev , .owl-next{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .owl-nav button:nth-child(2),.owl-nav button:first-child{
+        top: 32%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #footer span {
+       display: none;
+    }
+    #footer ul {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .elem3 img:nth-child(1) {
+        float: none;
+        padding: 10%;
+    }
+    .elem3 img:nth-child(2) {
+        float: none;
+        padding: 10%;
+    }
+}
