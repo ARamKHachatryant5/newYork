@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
 }
 #one,#two,#three,#four{
     width: 100%;
@@ -30,7 +31,8 @@ body{
     opacity: 0.9;
 }
 #two{
-	background-image: url("../img/two.jpg");
+    background-image: url("../img/two.jpg");
+    overflow-x: hidden;
 }
 .divTwo,.divThree{
     width: 50vw;
@@ -156,7 +158,7 @@ body{
     top: 0px;
     right: 0px;
     margin-right: -300px;
-    z-index: 3;
+    z-index: 100000;
     transition: 0.4s;
     cursor: pointer;
 }
@@ -211,7 +213,6 @@ body{
 #main{
     width: 100%;
     min-height: 1000px;
-    border: 1px solid white;
     margin: auto;
     margin-top: 100px;
     padding: 20px;
@@ -305,15 +306,13 @@ body{
     margin: 1px;
 
 }
-.elem3 img:nth-child(1){
-    width: 270px;
+.elem3   img:nth-child(1){
+    width: 94%;
     float: left;
-    padding: 17px;
 }
 .elem3 img:nth-child(2){
-    width: 270px;
+    width: 94%;
     float: right;
-    padding: 17px;
 }
 #elem4{
     width: 97.5%;
@@ -344,35 +343,30 @@ body{
 }
 /* #### */
 #footer{
-    height: 92px;
-    background-color: antiquewhite;
+    min-height: 92px;
+    background-color: #cdc9c3;
     width: 97.5%;
     margin-left: 1%;
-    padding: 18px;
+    padding: 23px;
     box-sizing: border-box;
 }
-#footer span{
-    float: right;
-    letter-spacing: 1px;
-    margin-top: 15px;
-    margin-right: 41px;
-}
-#footer ul{
-    width: 100%;
-    display: inline;
-    list-style-type: none;
-    padding: 29px;
-}
-#footer ul li{
-    display: inline-block;
-    font-size: 16pt;
-    padding: 14px;
-    padding-left: 37px;
-}
-#footer ul li a{
+#footer a{
     text-decoration: none;
     color: black;
     transition: 0.3s;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    transition: 0.3s;
+}
+#footer a:hover{
+    letter-spacing: 6px;
+    border-bottom-color: #cdc9c3;
+}
+#footer :nth-child(1){
+    border-top: 2px solid black;
 }
 #footer ul li a:hover{
     text-decoration: underline;

@@ -66,10 +66,8 @@
 @media only screen and (max-width: 500px) {
     .elem3 img:nth-child(1) {
         float: none;
-        padding: 10%;
     }
     .elem3 img:nth-child(2) {
         float: none;
-        padding: 10%;
     }
 }
