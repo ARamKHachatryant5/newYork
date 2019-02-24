@@ -363,7 +363,7 @@ body{
 }
 #footer a:hover{
     letter-spacing: 6px;
-    border-bottom-color: #cdc9c3;
+    border-bottom-color: red;
 }
 #footer :nth-child(1){
     border-top: 2px solid black;
