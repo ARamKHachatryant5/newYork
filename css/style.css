@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0px;
     font-family: 'Oswald', sans-serif;
     overflow-x: hidden;
 }
-#one,#two,#three,#four{
+
+#one, #two, #three, #four {
     width: 100%;
     min-height: 100vh;
     height: auto;
@@ -12,15 +13,18 @@ body{
     background-size: cover;
     overflow: auto;
 }
-#one{
-	background-image: url("../img/bg.jpg");
+
+#one {
+    background-image: url("http://www.wallpapermaiden.com/wallpaper/22092/download/3840x2160/usa-manhattan-skyscrapers-top-view-buildings-new-york-city.jpg");
 }
-.divWelcome{
+
+.divWelcome {
     width: 75vw;
     margin: auto;
     text-align: center;
 }
-.divWelcome h1{
+
+.divWelcome h1 {
     letter-spacing: 7vw;
     font-weight: 600;
     font-size: 8vw;
@@ -30,11 +34,13 @@ body{
     text-align: center;
     opacity: 0.9;
 }
-#two{
-    background-image: url("../img/two.jpg");
+
+#two {
+    background-image: url("https://www.ohmhomenow.com/wp-content/uploads/2016/12/8776831712_ee53170433_o.jpg");
     overflow-x: hidden;
 }
-.divTwo,.divThree{
+
+.divTwo, .divThree {
     width: 50vw;
     margin: auto;
     min-height: 300px;
@@ -43,60 +49,71 @@ body{
     opacity: 0.7;
     transition: 0.4s;
 }
-.divTwo:hover{
+
+.divTwo:hover {
     opacity: 1;
     background-color: #d3412d;
 }
-.divTwo h2{
-	color: #fff;
+
+.divTwo h2 {
+    color: #fff;
     font-size: 2.4em;
     margin-top: 8px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 10px;
 }
-.divTwo p{
+
+.divTwo p {
     font-family: 'Oswald', sans-serif;
     color: #fff;
     font-size: 19px;
     margin: 24px;
 }
-#three{
-    background-image: url("../img/losSantos.png")
+
+#three {
+    background-image: url("http://files.all-free-download.com//downloadfiles/wallpapers/3840_2160/new_york_city_manhattan_bridge_16625.jpg")
 }
-.divThree:hover{
+
+.divThree:hover {
     opacity: 1;
     background-color: #010623;
 }
-.divThree h2{
-	color: #fff;
+
+.divThree h2 {
+    color: #fff;
     font-size: 2.4em;
     margin-top: 8px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 10px;
 }
-.divThree p{
+
+.divThree p {
     font-family: 'Oswald', sans-serif;
     color: #fff;
     font-size: 19px;
     margin: 24px;
 }
-#four{
+
+#four {
     background-color: #f64747;
 }
-#form{
+
+#form {
     width: 50vw;
     min-height: 50vh;
     margin: auto;
     text-align: center;
 }
-#form h3{
+
+#form h3 {
     color: #fff;
     text-align: center;
     font-size: 2.4em;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 9px;
 }
-#form #email,#name{
+
+#form #email, #name {
     font-family: 'Oswald', sans-serif;
     border-radius: 3px;
     border: none;
@@ -108,7 +125,8 @@ body{
     font-weight: 600;
     margin: 29px;
 }
-#form #message{
+
+#form #message {
     display: block;
     width: 40.3vw;
     margin: auto;
@@ -122,19 +140,21 @@ body{
     box-sizing: border-box;
     padding-top: 12px;
 }
-.button{
+
+.button {
     padding: 13px;
     border: none;
     border-radius: 3px;
     display: block;
-    margin: auto;       
+    margin: auto;
     margin-top: 6vh;
     margin-left: 5vw;
     background-color: aquamarine;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
 }
-#menu{
+
+#menu {
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -144,13 +164,15 @@ body{
     background-color: brown;
     z-index: 2;
 }
-#menu i{
+
+#menu i {
     position: relative;
     left: 11px;
     top: 5px;
     cursor: pointer;
 }
-#menuDiv{
+
+#menuDiv {
     width: 300px;
     height: 100%;
     background-color: brown;
@@ -162,55 +184,64 @@ body{
     transition: 0.4s;
     cursor: pointer;
 }
-#menuDiv #menuUl{
+
+#menuDiv #menuUl {
     list-style-type: none;
 }
-#menuUl a{
+
+#menuUl a {
     text-decoration: none;
     color: black;
     font-size: 23px;
     transition: 0.2s;
     letter-spacing: 4px;
 }
-#menuUl a:hover{
+
+#menuUl a:hover {
     color: #fff;
     letter-spacing: 20px;
     text-decoration: underline;
 }
-#menuUl li{
+
+#menuUl li {
     margin: 15px;
 }
-#cancel{
+
+#cancel {
     position: relative;
     right: -261px;
     top: 12px;
-    
 }
-header{
+
+header {
     position: fixed;
     width: 100%;
     transition: 0.4s;
     top: 0px;
 }
-header h1{
+
+header h1 {
     display: inline-block;
     margin: 9px;
     letter-spacing: 8px;
 }
-header h1 a{
+
+header h1 a {
     text-decoration: none;
     color: white;
     transition: 0.3s;
-   
 }
-header h1 a:hover{
+
+header h1 a:hover {
     color: #0c1f2b;
     letter-spacing: 15px;
 }
-body{
+
+body {
     background-color: #0c1f2b;
 }
-#main{
+
+#main {
     width: 100%;
     min-height: 1000px;
     margin: auto;
@@ -219,12 +250,13 @@ body{
     box-sizing: border-box;
 }
 
-.elem1{
+.elem1 {
     width: 100%;
     min-height: 300px;
     margin: auto;
 }
-.elem1 div{
+
+.elem1 div {
     width: 31%;
     background-color: aliceblue;
     display: inline-block;
@@ -236,51 +268,68 @@ body{
     color: aliceblue;
     transition: 0.3s;
 }
+
 /* New York */
-.elem1 div:nth-child(1){
+
+.elem1 div:nth-child(1) {
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/12/13/0f/new-york-in-one-day-guided.jpg");
     background-size: cover;
 }
-.elem1 div:nth-child(1):hover > h2{
+
+.elem1 div:nth-child(1):hover>h2 {
     color: red;
 }
-.elem1 div:nth-child(1):hover{
+
+.elem1 div:nth-child(1):hover {
     background-image: none;
     background-color: black;
 }
+
 /* Los Santos */
-.elem1 div:nth-child(2){
+
+.elem1 div:nth-child(2) {
     background-image: url("https://c1.staticflickr.com/5/4575/38471923221_3f2d67e640_b.jpg");
     background-size: cover;
 }
-.elem1 div:nth-child(2):hover > h2{
-    color: #cdbf9b;;
+
+.elem1 div:nth-child(2):hover>h2 {
+    color: #cdbf9b;
+    ;
 }
-.elem1 div:nth-child(2):hover{
+
+.elem1 div:nth-child(2):hover {
     background-image: none;
     background-color: black;
 }
+
 /* San Francisco */
-.elem1 div:nth-child(3){
+
+.elem1 div:nth-child(3) {
     background-image: url("https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/06/20/105284147-GettyImages-673632588.1910x1000.jpg");
     background-size: cover;
 }
-.elem1 div:nth-child(3):hover > h2{
-    color: #3e414f;;
+
+.elem1 div:nth-child(3):hover>h2 {
+    color: #3e414f;
+    ;
 }
-.elem1 div:nth-child(3):hover{
+
+.elem1 div:nth-child(3):hover {
     background-image: none;
     background-color: black;
 }
-.elem1 div h2{
+
+.elem1 div h2 {
     font-size: 31pt;
     letter-spacing: 11px;
 }
-.elem1 div p{
+
+.elem1 div p {
     letter-spacing: 3px;
     font-size: 20px;
 }
-.elem2,.elem3{
+
+.elem2, .elem3 {
     width: 97.5%;
     min-height: 300px;
     background-color: red;
@@ -288,10 +337,12 @@ body{
     margin-bottom: 1.4%;
     text-align: center;
 }
-.elem2 span{
+
+.elem2 span {
     font-size: 17vw;
 }
-.elem3{
+
+.elem3 {
     min-height: 600px;
     background-image: url("https://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/blue-wallpaper-1.jpg");
     margin-top: 1%;
@@ -300,74 +351,88 @@ body{
     text-align: left;
     color: aliceblue;
 }
-.elem3 h2{
+
+.elem3 h2 {
     font-size: 6vw;
     text-align: center;
     margin: 1px;
-
 }
-.elem3   img:nth-child(1){
+
+.elem3 img:nth-child(1) {
     width: 94%;
     float: left;
 }
-.elem3 img:nth-child(2){
+
+.elem3 img:nth-child(2) {
     width: 94%;
     float: right;
 }
-#elem4{
+
+.elem4 {
     width: 97.5%;
     margin-left: 1%;
+    transition: 1s;
 }
-.owl-nav button:first-child{
+
+.owl-nav button:first-child {
     position: absolute;
     left: 8px;
-    top:36%;
+    top: 36%;
     font: menu;
 }
+
 /* OWL */
-.owl-nav button:first-child:focus,.owl-nav button:nth-child(2):focus{
+
+.owl-nav button:first-child:focus, .owl-nav button:nth-child(2):focus {
     outline: 0px;
 }
-.owl-nav button:nth-child(2){
+
+.owl-nav button:nth-child(2) {
     position: absolute;
     right: 8px;
-    top:36%;
+    top: 36%;
     font: menu;
 }
-.owl-stage-outer img{
-    transition: 0.3s;
 
+.owl-stage-outer img {
+    transition: 0.3s;
 }
-.owl-stage-outer img:hover{
+
+.owl-stage-outer img:hover {
     border-radius: 10px;
 }
+
 /* #### */
-#footer{
+
+#footer {
     min-height: 92px;
     background-color: red;
     width: 97.5%;
     margin-left: 1%;
-    padding: 23px;
     box-sizing: border-box;
 }
-#footer a{
+
+#footer a {
     text-decoration: none;
     color: black;
     transition: 0.3s;
     font-size: 1.5em;
     text-align: center;
     display: block;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid red;
     padding: 10px;
     transition: 0.3s;
 }
-#footer a:hover{
+
+#footer a:hover {
     letter-spacing: 6px;
-    border-bottom-color: red;
+    border-bottom-color: black;
 }
-#footer :nth-child(1){
+
+/* #footer :nth-child(1){
     border-top: 2px solid black;
-}
-#footer ul li a:hover{
+} */
+
+#footer ul li a:hover {
     text-decoration: underline;
 }
